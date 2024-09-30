@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para Nombre -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <!-- Campo para Apellido -->
+    <EditText
+        android:id="@+id/etSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido" />
+
+    <!-- Campo para Teléfono -->
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Teléfono" />
+
+    <!-- Campo para Hobby -->
+    <EditText
+        android:id="@+id/etHobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hobby" />
+
+    <!-- Botón para agregar usuario -->
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Usuario" />
+
+    <!-- Botón para ver la lista de usuarios -->
+    <Button
+        android:id="@+id/btnViewUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Usuarios" />
+</LinearLayout>
